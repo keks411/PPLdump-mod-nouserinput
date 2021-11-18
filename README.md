@@ -1,3 +1,7 @@
+# modifications
+
+Replaced the userinput with a simple loop to check for process lsass.exe. Did not hide the window yet but could be done to make it a bit stealthier. Running as admin will dump lsass.exe to C:\a.dmp
+
 # PPLdump
 
 This tool implements a __userland__ exploit that was initially discussed by James Forshaw (a.k.a. [@tiraniddo](https://twitter.com/tiraniddo)) - in this [blog post](https://googleprojectzero.blogspot.com/2018/08/windows-exploitation-tricks-exploiting.html) - for __dumping the memory of any PPL__ as an administrator.
